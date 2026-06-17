@@ -57,13 +57,15 @@ async def main() -> None:
         TtsVoice(
             name=voice.name,
             description=get_description(voice),
-            attribution=None,
+            attribution=Attribution(
+                name="M$", url=""
+            ),
             installed=True,
             version=None,
             languages=[
                 voice.language
             ],
-            speakers=None
+            speakers=[]
         )
         for voice in voices_info
     ]
