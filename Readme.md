@@ -4,7 +4,9 @@ SDK URL
 ==
 
 https://www.nuget.org/api/v2/package/Microsoft.CognitiveServices.Speech/1.50.0 
+
 https://www.nuget.org/api/v2/package/Microsoft.CognitiveServices.Speech.Extension.Embedded.TTS/1.50.0
+
 https://www.nuget.org/api/v2/package/Microsoft.CognitiveServices.Speech.Extension.ONNX.Runtime/1.50.0
 
 BUILD PYBIND11
